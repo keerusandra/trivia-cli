@@ -1,0 +1,13 @@
+.product-card {
+
+    display: flex; /* Activate flexbox layout */
+
+    flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+
+    border: 1px solid #ddd; /* Add a thin border */
+
+    padding: 1em; /* Add some space around the content */
+
+    margin: 1em; /* Add some margin between cards */
+
+  }

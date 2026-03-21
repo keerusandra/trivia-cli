@@ -1,0 +1,19 @@
+.product-card {
+    background-color: #f0f8ff; /* Light gray background */
+    padding: 1em; /* Add space around the content */
+    border: 1px solid #ddd; /* Add a thin border */
+    margin: 1em; /* Add some margin between cards */
+    width: 20%; /* Keeps the card at 20% of the screen size. */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+.product-card h3 {
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 0.5em; /* Add some space below the title */
+}
+.product-card p {
+  margin-bottom: 0.25em; /* Add some space between paragraphs */
+}
+.product-card img {
+    width: 100%; /* Make the image fit the width of the card */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
+}
