@@ -36,7 +36,7 @@ let score = 0;
 let timeUp = false;
 
 function runQuiz() {
-    const question = quizdata(currentQuestion);
+    const question = quizdata[currentQuestion];
 
     console.log(question.question);
     console.log(question.choices);
